@@ -91,8 +91,8 @@ Update _vite.config.js_ based on the [Vitest Testing Library example](https://gi
   test: {
     globals: true,
     environment: "jsdom",
-    // this points to the setup file that we created earlier
-    setupFiles: "./src/setup.js",
+    // this points to the setup file that we created earlier (_setupTests.js is file name we gave earlier to setup file._)
+    setupFiles: "./src/setupTests.js",
     // you might want to disable the `css: true` line, since we don't have
     // tests that rely on CSS -- and parsing CSS is slow.
     // I'm leaving it in here becasue often people want to parse CSS in tests.
